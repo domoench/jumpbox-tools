@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Checking if we're using ZSH"
 if [[ $SHELL != *"zsh" ]]
 then
     echo "You need to have ZSH as your default shell !"
